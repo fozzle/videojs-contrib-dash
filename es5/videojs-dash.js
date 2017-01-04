@@ -135,7 +135,7 @@ var Html5DashJS = function () {
   }, {
     key: 'duration',
     value: function duration() {
-      var duration = this.tech_.duration_();
+      var duration = this.tech_.duration();
       if (duration === Number.MAX_VALUE) {
         return Infinity;
       }
