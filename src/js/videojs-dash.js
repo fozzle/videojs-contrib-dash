@@ -131,7 +131,7 @@ class Html5DashJS {
   }
 
   duration() {
-    const duration = this.tech_.duration_();
+    const duration = this.tech_.duration();
     if (duration === Number.MAX_VALUE) {
       return Infinity;
     }
